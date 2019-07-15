@@ -1,0 +1,45 @@
+/* Variable Css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.section {
+  position: sticky;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #000; */
+}
+
+.section:nth-child(1) {
+  background: url(img/4.jpg);
+  background-size: cover;
+}
+
+.section:nth-child(2) {
+  background: url(img/2.jpg);
+  background-size: cover;
+}
+
+.section:nth-child(3) {
+  background: url(img/3.jpg);
+  background-size: cover;
+}
+
+.section:nth-child(4) {
+  background: url(img/1.jpg);
+  background-size: cover;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 64px;
+}
